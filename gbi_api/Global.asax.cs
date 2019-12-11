@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using System.Web.Http;
-using System.Web.Routing;
 
 namespace gbi_api
 {
@@ -13,5 +9,6 @@ namespace gbi_api
         {
             GlobalConfiguration.Configure(WebApiConfig.Register);
         }
+
     }
 }
